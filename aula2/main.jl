@@ -1,14 +1,14 @@
 function e(x)
-  termo = 1 
+  termo = 1
   soma = 1
-  i = 1
-  while termo > o
-    termo = termo * (x/i)
-    soma= soma + termo
-    i = i + 1
-    end
-    return [soma i]
-end 
+  n = 1
+  while termo > 0
+    termo = termo * (x/n)
+    soma = soma + termo
+    n = n + 1
+  end
+  return [soma n]
+end
 
-y= e(1)
+y = e(1)
 println(y)
